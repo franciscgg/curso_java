@@ -20,8 +20,13 @@ public class retangulo {
         altura = sc.nextDouble();
 
         area = base * altura;
+        perimetro = 2 * (base + altura);
+        diagonal = Math.sqrt(Math.pow(base, 2) + Math.pow(altura, 2));
 
-        System.out.printf("ÁREA = %.2f", area);
+        System.out.printf("ÁREA = %.2f%n", area);
+        System.out.printf("PERIMETRO = %.2f%n", perimetro);
+        System.out.printf("DIAGONAL = %.4f", diagonal);
+        sc.close();
 
 
     }
