@@ -9,7 +9,6 @@ public class troco {
         int qtd;
 
         Locale.setDefault(Locale.US);
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Preço unitário do produto: ");
         preco = sc.nextDouble();
