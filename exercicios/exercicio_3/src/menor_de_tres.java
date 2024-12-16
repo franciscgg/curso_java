@@ -19,5 +19,6 @@ public class menor_de_tres {
         } else {
             System.out.print("Menor: " + num2);
         }
+        sc.close();
     }
 }

@@ -26,5 +26,6 @@ public class baskara {
             System.out.printf("X1 = %.4f%n", x1);
             System.out.printf("X2 = %.4f", x2);
         }
+        sc.close();
     }
 }

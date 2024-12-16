@@ -17,5 +17,6 @@ public class operadora {
             valorPagar = valor + (minutos - 100) * 2;
             System.out.printf("Valor a pagar: R$ %.2f", valorPagar);
         }
+        sc.close();
     }
 }

@@ -21,5 +21,6 @@ public class notas {
         else{
             System.out.print("APROVADO");
         }
+        sc.close();
     }
 }
